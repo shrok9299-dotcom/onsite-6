@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    color: #333;
+}
+
+.serif-font { font-family: 'Playfair Display', serif; }
+.bg-light-grey { background-color: #f8f9fa; }
+.text-soft-blue { color: #5bc0de; }
+.max-w-600 { max-width: 600px; }
+.tracking-wider { tracking-wider: 0.1em; }
+.leading-relaxed { line-height: 1.8; }
+.border-light-grey { border: 1px solid #e9ecef; }
+
+/* Hero Section */
+.hero-section {
+    height: 90vh;
+}
+
+/* Badges */
+.skill-badges .badge {
+    border: 1px solid #e9ecef;
+}
+
+/* Buttons */
+.btn-soft-blue {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.btn-soft-blue:hover {
+    background-color: #fff;
+    color: #5bc0de;
+    box-shadow: 0 4px 10px rgba(91, 192, 222, 0.3) !important;
+}
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Project Cards */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Contact Form */
+#contactForm input, #contactForm textarea {
+    background-color: #fcfcfc;
+}
+#contactForm input:focus, #contactForm textarea:focus {
+    border-color: #5bc0de;
+    box-shadow: 0 0 0 0.2rem rgba(91, 192, 222, 0.1);
+}
